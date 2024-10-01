@@ -1,0 +1,226 @@
+.Reservation {
+    height: 100%;
+    padding: 10px;
+    background-color: var(--backgroundColor);
+}
+
+.Reservation-Container {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+
+}
+
+.inner-reservation {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.leftSide-Reserve-container {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rightSide-Reserve-container {
+    width: 55%;
+    max-height: 90vh;
+    overflow-y: auto;
+    padding-right: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.create-reservation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #ccc;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.create-reservation img {
+    height: 140px;
+}
+
+.create-btn button {
+    background-color: black;
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.reserveInfo-div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #d0d9e936;
+    padding: 5px;
+}
+
+.statusLabel {
+    display: flex;
+    justify-content: space-between;
+}
+
+.statusLabel span {
+    border: 1px solid #ccc;
+    padding: 2px 5px;
+    border-radius: 5px;
+    background-color: rgba(137, 43, 226, 0.612);
+    color: white;
+    font-size: 9pt;
+}
+
+.statusLabel .btnsContainer div:nth-child(2) {
+    background-color: black;
+    cursor: pointer;
+}
+
+.statusLabel .btnsContainer div {
+    cursor: pointer;
+}
+.statusLabel .btnsContainer div:nth-child(2) button {
+    color: white;
+    cursor: pointer;
+}
+
+.reserveContainer {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.infoLeft {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.infoRight {
+    width: 50%;
+}
+
+.label {
+    color: grey;
+    font-size: 10pt;
+}
+
+.profile-info {}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.profile-info img {
+    height: 30px;
+    border-radius: 20px;
+}
+
+.Reserve-Email {
+    width: 220px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.Reserve-Email span {
+    font-size: 8pt;
+    font-weight: bold;
+}
+
+
+.infoLeft p {
+    font-size: 8pt;
+    color: grey;
+}
+
+.btnsContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btnsContainer div {
+    padding: 3px 15px;
+    border: 1px solid #ccc;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-radius: 5px;
+}
+
+.btnsContainer div button {
+    background: none;
+    border: none;
+}
+
+.table-info {
+    display: flex;
+}
+
+.table-img {
+    width: 50%;
+}
+
+.table-img img {
+    height: 80px;
+}
+
+.infomation-container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.infomation-container span {
+    font-weight: bold;
+}
+
+.InfoSpan {
+    font-weight: 400 !important;
+    color: grey;
+}
+
+.infomation-container p {
+    font-size: 10pt;
+}
+
+
+.mainReserveContainer {
+    height: 50vh;
+    overflow-y: auto;
+    padding-right: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.rightSide-Reserve-container .reserveContainer .statusLabel p{
+    background-color:rgb(15, 227, 156);
+    padding: 2px 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 10pt;
+}
+
+.rightSide-Reserve-container .reserveContainer .statusLabel {
+    display: flex;
+    justify-content: flex-end;
+}

@@ -1,0 +1,129 @@
+.Menu {
+    height: 100%;
+    padding: 10px;
+    background-color: var(--backgroundColor);
+}
+
+.inner-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.menu-container {
+    display: flex;
+    gap: 10px;
+}
+
+.menuDiv1 {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.leftsideMenu {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.rightsideMenu {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-height: 90vh;
+    overflow-y: auto;
+    padding-right: 5px;
+}
+
+.addMenu-container {
+    border: 1px dashed #ccc;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.addMenu-container img {
+    height: 120px;
+}
+
+.addMenu-container button {
+    background-color: black;
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.outStock-container {
+    /* border: 1px solid; */
+}
+
+.outmenu-container {
+    display: flex;
+    gap: 10px;
+}
+
+.menu-img {
+    width: max-content;
+    padding: 0px 5px;
+}
+
+.menu-info {
+    width: 75%;
+}
+
+.menu-info span {
+    font-size: 8pt;
+    color: gray;
+    display: flex;
+    gap: 5px;
+}
+
+.menu-info p {
+    color: #2eaeaa;
+}
+
+.outStock-container {
+    height: 56vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-right: 5px;
+}
+
+.out-stock-label {
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.144);
+    height: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    right: 0;
+}
+
+.menuRight-side {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.menuRight-side span {
+    font-size: 8pt;
+    color: grey;
+}

@@ -1,0 +1,208 @@
+.Waiter {
+    height: 100%;
+    padding: 10px;
+    background-color: var(--backgroundColor);
+}
+
+.inner-waiter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.waiterMainContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+}
+
+.waiterLeftSide {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.waiterRightSide {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.addWaiter img {
+    height: 140px;
+}
+
+.addWaiter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 1px solid;
+    padding: 10px;
+    border: 1px dashed #ccc;
+}
+
+.addWaiter button {
+    background-color: black;
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.WaiterAllocatedContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.label {
+    width: max-content;
+    padding: 0px 15px 0px 0px;
+    
+}
+
+.waiterAllocationSection {
+    height: 50vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-right: 5px;
+}
+
+
+
+.waiterList {
+    padding: 6px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.waiter-Img {
+    width: 25%;
+}
+
+.waiter-info {
+    width: 75%;
+    padding: 5px;
+    background-color: aliceblue;
+}
+
+
+.waiter-info label {
+    font-size: 7pt;
+    color: grey;
+    font-weight: bold;
+}
+
+.waiter-contact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.waiter-contact .contactDiv {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.waiter-contact span {
+    font-size: 10pt;
+}
+
+.waiter-info p {
+    font-size: 10pt;
+}
+
+.waiter-address {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.waiter-address span {
+    font-size: 10pt;
+}
+
+.waiter-pincode {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.waiter-pincode span {
+    font-size: 10pt;
+}
+
+.icon_Number-container {
+    display: flex;
+    align-items: center;
+    gap: 5px
+}
+
+.WaiterLeaveSection {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+}
+
+.LeaveContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    height: 33.8vh;
+    overflow-y: auto;
+    padding-right: 5px;
+}
+
+.WaiterLeaveSection .icon_Number-container span {
+    font-size: 7pt !important;
+}
+
+
+.unAllocationSection {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.unAllocatedContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.unallocationSection {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 50vh;
+    overflow-y: auto;
+    padding-right: 5px;
+}
+
+
+.WaiterAllocationList {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.WaiterAllocationList .waiterList .waiter-info .contactDiv .icon_Number-container span {
+    font-size: 6pt;
+}

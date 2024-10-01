@@ -1,0 +1,228 @@
+.dashboard {
+    height: 100%;
+    padding: 10px;
+    background-color: var(--backgroundColor);
+}
+
+.inner-dashboard {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.expense-card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.expanse-bx {
+    width: 25%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.icon-container {
+    border: 1px solid #ccc;
+    width: max-content;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.label-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.label-div h4 {
+    color: grey;
+    font-size: var(--defaultFontSize);
+}
+
+.price-container {
+    display: flex;
+    gap: 10px;
+}
+
+.price-container p {
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.price-container div:nth-child(2) p {
+    font-size: 10pt;
+    color: #38817A;
+    font-weight: bold;
+}
+
+.price-container div:nth-child(2) {
+    display: flex;
+    align-items: end;
+}
+
+.dashboard-sections {
+    height: auto;
+    display: flex;
+    gap: 10px;
+}
+
+.sectionDiv {
+    height: 74vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.reservation-container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: white;
+}
+
+.reservation-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reservation-label button {
+    padding: 2px 5px;
+    background: none;
+    border: none;
+}
+
+.reservation-bx1 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.reservation-bx img {
+    height: 20px;
+}
+
+
+.reservation-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.reservation-bx {
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete-reservation {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.delete-reservation button {
+    display: flex;
+    align-items: center;
+    border: none;
+    background: none;
+    gap: 5px;
+}
+
+.delete-reservation span {
+    color: #38817A;
+}
+
+.res-middle-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: grey;
+
+}
+
+.reservation-graph-container {
+    background-color: white;
+    padding: 10px;
+}
+
+.apexcharts-title-text {
+    font-family: FuturaPTBook !important;
+}
+
+.Average-graph-container {
+    background-color: white;
+    padding: 10px;
+}
+
+.menu-container {
+    padding: 3px 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.menu {
+}
+
+.menu ul li {
+    list-style-type: none;
+}
+
+.item-label img {
+    height: 20px;
+}
+
+.item-label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.menu ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px;
+}
+
+.right-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: grey;
+    font-size: 8pt;
+}
+
+.left-label span {
+    color: grey;
+    font-size: 8pt;
+}
+
+.items-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.right-side-price-container{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    color: grey;
+    font-size: 9pt;
+    width: 105px;
+}

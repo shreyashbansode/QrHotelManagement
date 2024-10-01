@@ -1,0 +1,17 @@
+.MainRoute {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.sidebar {
+    height: 100%;
+    width: 12%;
+    background-color: var(--blackGrey);
+}
+
+.right-side-container {
+    width: 88%;
+    height: 100%;
+}
+

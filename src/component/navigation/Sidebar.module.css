@@ -1,0 +1,71 @@
+.sidebar {
+    height: 100%;
+    padding: 10px;
+}
+
+.logo-icon {
+    padding: 8px 10px;
+    color: white;
+    border: 1px solid #444242;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.logo-icon h3 {
+    text-align: center;
+    font-size: var(--largeFontSize);
+}
+
+.list-container {
+    height: 80vh;
+    margin-top: 10px;
+}
+
+.list-container ul li {
+    list-style-type: none;
+    padding: 8px 10px;
+    text-align: center;
+    color: gray;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.list-container ul li:hover {
+    border: 1px solid #444242 ;
+}
+
+
+.logout-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.logout li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    color: gray;
+}
+
+.left-profile-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.left-profile-icon img {
+    height: 30px;
+    border-radius: 50%;
+}
+
+.left-profile-icon span {
+    font-size: var(--smallFontSize);
+    color: grey;
+}
+
